@@ -37,7 +37,7 @@ photon_rstudioaddin <- function(RscriptRepository = NULL) {
 
         shinyBS::bsCollapse(id = "adv", open = NULL,
           shinyBS::bsCollapsePanel(
-            shiny::tags$b("Click for Advanced Options"), NULL,
+            shiny::tags$b("> Click for Advanced Options"), NULL,
             shiny::textInput('github_packages',
                                label = "GitHub packages (ex. thomasp85/patchwork):",
                                value = "NULL", width = "100%"),
